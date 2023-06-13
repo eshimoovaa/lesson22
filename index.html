@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    sm: "0px",
+                    md: "950px",
+
+                },
+                extend: {
+                    colors: {
+                        primaryColor: '#FF5300',
+                        bgColor: '#FFF7F4',
+                        textColor: '#7B7B7B',
+                        darkColor: '#373737',
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <section class="bg-bgColor px-[135px] py-[42px]">
+        <div>
+            <header class="flex justify-between">
+
+
+                <div class="">
+                    <h1 class="text-[40px] text-darkColor"> <span class="text-primaryColor">Digi</span>ency</h1>
+                </div>
+
+                <div class="flex justify-end items-center text-darkColor">
+                    <ul class=" flex gap-[29px] items-center text-darkColor hidden md:flex">
+                        <li class="text-primaryColor"><a href="#">Home</a></li>
+                        <li class="text-darkColor"><a href="#">About Us</a></li>
+                        <li class='text-darkColor'><a href="#">Services</a></li>
+                        <li class="text-darkColor"><a href="#">Portfolio</a></li>
+                        <li class="text-darkColor"><a href="#">Blog</a></li>
+                        <li class="text-darkColor"><a href="#">Contact Us</a></li>
+
+                    </ul>
+
+
+                    <a class="py-[10px] px-[20px] rounded-md text-black transition duration-200 hover:primaryColor-500 border-textColor border-[2px] ml-[30px]"
+                        href="#">Let's Talk</a>
+                    <button class="text-3xl sm:block md:hidden ml-[10px]">
+                        <i class='bx bx-menu-alt-right'></i>
+
+                    </button>
+                </div>
+        </div>
+        </header>
+
+
+
+        <div class="w-full grid sm:grid-cols-1 md:grid-cols-2 items-center 
+        md:mt-[150px] pb-[70px] sm:text-center md:text-left gap-[50px]">
+            <div class="sm:order-last md:order-first  ">
+                <h1 class="font-[700] sm:text-[32px] sm:text-center md:text-left md:text-[44px] 
+                text-darkColor mb-[40px]">Choose What Matters To Your Business & Your Customers.</h1>
+                <p class="font-[400] sm:text-center md:text-left text-[16px] mb-[40px]
+                text-textColor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    in digni ssim euismod purus donec mus vulputate habitant iaculis. Com
+                    odo enim ornare turpis tempus enim, nibh nulla. Rhoncus sed.</p>
+
+
+                <div class="">
+                    <a class="py-[10px] px-[20px] rounded-sm bg-primaryColor text-white transition duration-200 hover:red-500"
+                        href="#">Get Start Now</a>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="Frame 19.png">
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="bg-#F5F5F5 px-[135px] py-[112px]">
+        <div class=" justify-center items-center">
+            <div class="line-2px line-primryColor "></div>
+            <div class="flex items-center py-4">
+                <!-- The left line -->
+                <div class="flex-grow h-px bg-primaryColor"></div>
+
+                <!-- Your text here -->
+                <span class="flex-shrink text-2xl text-primaryColor px-4 italic font-light">Our blog</span>
+
+                <!-- The right line -->
+                <div class="flex-grow h-px bg-primaryColor"></div>
+            </div>
+
+            <div class="line-2px line-primryColor"></div>
+
+
+            <h1 class="text-center  text-[40px] font-[600px] text-darkColor">Every Singel Update From Here</h1>
+        </div>
+
+        <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-[20px] mt-[15px]">
+            <div class="rounded-sm p-[24px] border gap-[30px] pb-[30px]">
+                <div>
+                    <span>
+                        <img src="Image.png">
+                    </span>
+                </div>
+
+                <h2 class="text-[20px] text-darkColor mt-[15px]">35 Stellar Graphic Design Blogs to Keep YouEducated and
+                    Inspired</h2>
+
+                <p class="text-[16px] text-textColor mt-[17px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Eget nunc, sed sed sed. Sit integer at dui
+                    at non ipsum tellus ac. Est.</p>
+
+                <a href="#"
+                    class="  py-[10px] px-[20px] rounded-lg bg-primaryColor text-white transition duration-200 hover:red-500  inline-block">Read
+                    More</a>
+
+
+
+
+            </div>
+            <div class="rounded-sm p-[24px] border ">
+                <div>
+                    <span>
+                        <img src="Image (1).png">
+                    </span>
+                </div>
+
+                <h2 class="text-[20px] text-darkColor mt-[15px]">35 Stellar Graphic Design Blogs to Keep YouEducated and
+                    Inspired</h2>
+
+                <p class="text-[16px] text-textColor mt-[17px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Eget nunc, sed sed sed. Sit integer at dui
+                    at non ipsum tellus ac. Est.</p>
+                <a href="#"
+                    class="py-[10px] px-[20px] rounded-lg bg-primaryColor text-white transition duration-200 hover:red-500 mt-[25px] inline-block">Read
+                    More</a>
+
+
+            </div>
+            <div class="rounded-sm p-[24px] border ">
+                <div>
+                    <span>
+                        <img src="Image (2).png">
+                    </span>
+                </div>
+
+                <h2 class="text-[20px] text-darkColor mt-[15px]">35 Stellar Graphic Design Blogs to Keep YouEducated and
+                    Inspired</h2>
+
+                <p class="text-[16px] text-textColor mt-[17px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Eget nunc, sed sed sed. Sit integer at dui
+                    at non ipsum tellus ac. Est.</p>
+                <a href="#"
+                    class="py-[10px] px-[20px] rounded-lg bg-primaryColor text-white transition duration-200 hover:red-500 mt-[25px]">Read
+                    More</a>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bg-darkColor px-[135px] py-[66px]">
+        <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-[20px] mt-[15px] text-white">
+            <div class="">
+                <h1 class="text-[39px] text-white"> <span class="text-primaryColor">Digi</span>ency</h1>
+                <h6 class="text-[16px] mt-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
+                    facilisi quis risus egestas ipsum.
+                </h6>
+            </div>
+
+            <div >
+                <h4 class="text-[25px] text-primaryColor">Location</h4>
+                <h5 class="text-[20px] mt-[20px]">3517 W. Gray St. Utica, Pennsylvania 57867</h5>
+            </div>
+
+            <div class="content-row">
+                <h4 class="text-[25px] text-primaryColor">Call Us</h4>
+                <h5 class="text-[20px] mt-[20px]">(252) 555-0126 <br>info@youremai.com</h5>
+            </div>
+            <div >
+                <h4 class="text-[25px] text-primaryColor">Follow us</h4>
+                <div class="text-darkColor mt-[35px]">
+                    <i class="bx bxl-facebook  border px-[20px] py-[15px] rounded-full bg-white"></i>
+                    <i class="bx bxl-instagram border px-[20px] py-[15px] rounded-full bg-white"></i>
+                    <i class="bx bxl-skype border px-[20px] py-[15px] rounded-full bg-white"></i>
+                    <i class="bx bxl-google border px-[20px] py-[15px] rounded-full bg-white"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex-grow h-px bg-white mt-[60px]"></div>
+
+        <div class="text-white flex mt-[20px] text-[16px]">
+            <div>
+                <h5>Copyright 2021. All Right Reserved By Ojjomedia
+
+                </h5>
+            </div>
+
+            <ul class="gap-[55px] justify-end ml-[128px] flex text-[16px]">
+                <li class=""><a href="#" class=" px-[9px] py-[1px] rounded-full  bg-primaryColor mr-[11px] "></a>
+                    Privacy Plicy</li>
+                <li><a href="#" class=" px-[9px] py-[1px] rounded-full  bg-primaryColor mr-[11px] "></a> Therms of Us
+                </li>
+            </ul>
+        </div>
+
+    </section>
+</body>
+
+</html>
